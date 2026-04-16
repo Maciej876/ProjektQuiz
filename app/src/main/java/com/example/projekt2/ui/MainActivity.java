@@ -13,6 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.projekt2.R;
 
+
 public class MainActivity extends AppCompatActivity {
 
     EditText nameInput;

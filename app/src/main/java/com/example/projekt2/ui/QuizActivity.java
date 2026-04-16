@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import com.example.projekt2.R;
 import com.example.projekt2.ResultHolder;
 import com.example.projekt2.adapter.ReviewAdapter;
@@ -35,7 +36,7 @@ public class QuizActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
 
-        playerName = getIntent().getStringExtra("nazwa");
+        playerName = getIntent().getStringExtra("NAME");
 
         questionText = findViewById(R.id.questionText);
         progressText = findViewById(R.id.progressText);
@@ -196,8 +197,8 @@ public class QuizActivity extends AppCompatActivity {
 
     private void finishQuiz() {
         Intent intent = new Intent(this, ResultActivity.class);
-        intent.putExtra("Wynik", score);
-        intent.putExtra("nazwa", playerName);
+        intent.putExtra("SCORE", score);
+        intent.putExtra("NAME", playerName);
 
         ResultHolder.questions = questions;
         ResultHolder.answers = userAnswers;

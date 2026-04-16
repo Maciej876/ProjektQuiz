@@ -7,8 +7,9 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.projekt.R;
-import com.example.projekt.model.Score;
+
+import com.example.projekt2.R;
+import com.example.projekt2.model.Score;
 
 import java.util.List;
 

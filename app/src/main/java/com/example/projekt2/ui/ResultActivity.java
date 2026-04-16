@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.room.Room;
 
+
 import com.example.projekt2.R;
 import com.example.projekt2.adapter.ReviewAdapter;
 import com.example.projekt2.adapter.ScoreAdapter;

@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+
 import com.example.projekt2.R;
 import com.example.projekt2.ResultHolder;
 import com.example.projekt2.adapter.ReviewAdapter;
